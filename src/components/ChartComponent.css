@@ -1,0 +1,12 @@
+.ChartComponent{
+    position: absolute;
+    right: -95%;
+    bottom: -20%;
+    transform: translate(-50%, -50%);
+    height: 360px;
+    width: 750px;
+    background-color: #fff; /* Set the background color */
+    padding: 10px;
+    border: 2px solid #00005b; /* Add an outline border with dark blue color */
+    border-radius: 10px; /* Add padding as needed */
+}

@@ -1,0 +1,22 @@
+/* Center the icon and text horizontally and align them in the same row */
+.MuiTab-labelIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  /* Adjust the spacing between the icon and text (optional) */
+  .MuiTab-labelIcon .MuiSvgIcon-root {
+    margin-right: 8px; /* Adjust as needed */
+  }
+  .row {
+    display: flex;
+    align-items: flex-start; /* Align items to the top of the flex container */
+    justify-content: space-between; /* Space between items */
+  }
+
+
+  .connection-details {
+    flex: 1;
+  }
